@@ -1,0 +1,152 @@
+.nav-link {
+    color: white!important;
+    margin: 15px;
+    font-weight:bolder;
+}
+
+ a:hover {
+    color:red!important;
+}
+
+.has-background {
+    background-color: indigo!important;
+}
+
+.navbar-dropdown {
+    background-color: indigo!important;
+    color: white!important;
+    font-weight: bolder;
+    border-radius: 30px;
+}
+
+#headerRegister {
+    background-color: red!important;
+}
+
+#headerLogIn {
+    background-color: indigo!important;
+    border-style: groove;
+    border-color: white;
+    color: white;
+}
+
+#brandText {
+    border-style: groove;
+    border-color: red;
+    font-weight: bolder;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
+}
+
+
+.fa-shopping-cart {
+    color: indigo;
+}
+ 
+ .fa-hand-point-down {
+     color: red;
+ }
+.headerImage {
+
+    border-color: indigo!important;
+}
+
+.btn {
+    background-color: indigo!important;
+    color: white!important;
+    font-weight: bold!important;
+}
+
+#email, #name, #number, #service, #dropdown {
+    border-style: groove;
+    border-color: indigo;
+}
+
+input {
+    text-align: center;
+    color: red!important;
+    font-weight: bolder!important;
+}
+
+/* homePix {
+    background-image: url(https://funntaste.com/wp-content/uploads/2020/04/online-grocery-during-covid-19-fun-n-taste-com.png);
+} */
+
+.jumbotron {
+    background-color: pink!important;
+    
+}
+
+.title {
+    font-size: 39px!important;
+    color: indigo!important; 
+}
+
+.card-title {
+    color: indigo!important;
+}
+
+.card-subtitle {
+    color: red!important;
+}
+
+.jumbotron-fluid {
+    margin-top: 5px;
+}
+
+.perPricing {
+    color: indigo!important;
+    font-size: 20px!important;
+    font-style: italic;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.perWarning {
+    margin-top: -30px!important;
+    text-align: center!important;
+    color: red!important;
+    font-weight: bolder!important;
+    font-size: 25px!important;
+}
+
+.vl {
+  border-left: 6px solid red;
+  height: 100px;
+}
+
+.fa-shipping-fast, .fa-utensils, .fa-angellist {
+    color: indigo!important;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+#features {
+    color: indigo!important;
+    font-weight: bolder!important;
+    text-transform: uppercase;
+    font-size: 20px!important;
+}
+
+.footer {
+background-color: indigo!important;
+margin-top: 40px;
+}
+
+blockquote {
+    border-left-color: indigo!important;
+    border-left-style: solid;
+    border-left-width: 5px;
+    font-size: 30px!important;
+
+}
+
+.fa-quote-right, .fa-quote-left, .followUs {
+    color: red!important;
+}
+
+.fa-facebook, .fa-twitter, .fa-linkedin, .fa-instagram, .fa-wordpress, .fa-whatsapp, .fa-github {
+    color: white;
+     margin:20px;
+     font-size: 45px;
+}
