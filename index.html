@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GbolaByte Survey Page</title>
+    <!--CSS-->
+    <link href="freecodecamp.css" rel="stylesheet">
+    <!--Font Awesome CDN-->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+   <!--Bootstrap CSS CDN-->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+    
+  </head>
+  <body>
+<header id="header">
+
+
+<nav class="navbar is-fixed-top has-background has-text-white" id="nav-bar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item is-brand" id="brandText" href="#">
+     GbolaByte Foods
+    </a>
+
+    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="true" data-target="goHere">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="goHere" class="navbar-menu">
+    <div class="navbar-end">
+      <a class="navbar-item nav-link" href="#header-img">Home</a>
+
+      <a class="navbar-item nav-link" href="#video">How it Works</a>
+
+      <a class="navbar-item nav-link" href="#pricing">Pricing</a>
+
+      <a class="navbar-item nav-link" href="#aboutUs">About us</a>
+       
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link nav-link" href="#footer">Pages</a>
+     
+    
+
+        <div class="navbar-dropdown nav-right">
+          <a class="navbar-item" href="#form">Info</a>
+            
+          <a class="navbar-item" href="#form">Career</a>
+            
+          <a class="navbar-item" href="#form">Contact us</a>
+          
+          <hr class="navbar-divider">
+          <a class="navbar-item" href="#form">Advertise with us</a>
+            
+        </div>
+      </div>
+    </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="buttons">
+          <a class="button is-primary nav-link" id="headerRegister" href="#form"><strong>Register</strong></a>
+
+             <a class="button is-light nav-link" id="headerLogIn" href="#form">Log in</a>
+          
+        
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+</header>
+<!-- HOME PAGE BANNER, IMAGE & FORM -->
+<div class="jumbotron">
+    <div class="container">
+        <div class="row mt-5">
+        <div class="col-sm-12 col-md-4 col-lg-5 homePix is-center">
+        <img src="https://images.pexels.com/photos/3962285/pexels-photo-3962285.jpeg" class="img-thumbnail headerImage" width="450" height="200">
+        </div>
+  <!--FORM STARTED -->
+        <div class="col-sm-12 col-md-8 col-lg-7">
+           <h1 class="title text-center font-weight-bold" id="title">Shop for Your Groceries at Affordable Price</h1>
+           <marquee><div class="col"> <p class="subtitle text-center font-weight-bolder" id="description"> <i class="fa fa-shopping-cart" aria-hidden="true"></i> We'll Deliver to Your Doorstep, Contact Us <i class="fas fa-hand-point-down"></i>  </p> </div> </marquee>
+          
+          <form action="https://www.freecodecamp.org/email-submit" method="POST" class="mt-3" id="form">
+  <div class="row mt-3">
+    <div class="col">
+      <div class="form-group">
+                     <label for="email" id="email-label" class="sr-only">Email:</label>
+                 <input type="email" name="email" id="email" placeholder="Your Email Address Here..." class="form-control" required="required"> 
+                 </div>
+    </div>
+
+    <div class="col">
+        <div class="form-group">
+                     <label for="name" id="name-label" class="sr-only">Name:</label>
+                <input type="name" id="name" name="name" placeholder="Enter Your Name" class="form-control" required="required">
+                 </div>
+    </div>
+  </div>
+
+          
+  <div class="row mt-3">
+    <div class="col">
+       <div class="form-group">
+                     <label for="number" id="number-label" class="sr-only">Phone Number:</label>
+                 <input type="number" id="number" name="number" placeholder="Your Phone Number" maxlength="12" min="0" class="form-control" required="required">
+                    </div>
+    </div>
+    <div class="col">
+       <div class="form-group">
+                       <label for="order" class="sr-only">What do you want to buy?</label>
+                       <select class="form-control" name="services" id="dropdown">
+                         <option>Choose Here</option>
+                         <option>Fast Food</option>
+                         <option>Food Stuff</option>
+                         <option>Order for Someone</option>
+                       </select>
+                     </div>
+    </div>
+  </div>
+
+      
+   <center> <input type="submit"  id="submit" class="btn mt-0" value="Start Your Order Now!"></center>
+</form>
+
+    </div>
+</div>
+</div>
+<hr style="height:5px;border-width:0;color:red;background-color:indigo">
+</div>
+                       <!--SERVICES-->
+<div class="jumbotron-fluid">
+    <div class="container-fluid">
+     <h2 class="title font-weight-bold text-center" id="aboutUs">About Our Services</h2>
+     <center><hr style="height:5px;width:200px;border-width:20px;color:red;background-color:red"></center>
+      <div class="row jumbotron">
+        <div class="col-lg-5 col-sm-12 col-md-6">
+                            
+                            <div class="embed-responsive embed-responsive-16by9">
+               <iframe src="https://www.youtube.com/embed/4-HEhZkkhKM" id="video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+
+             <div class="col-lg-7 col-sm-12 col-md-6">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda unde iure harum fugit repellat voluptatum! 
+               Impedit atque numquam et quam. Vel a corporis dolore repudiandae blanditiis earum voluptate debitis ipsum eum odit pariatur 
+               fuga dignissimos 
+               sunt cupiditate iure iusto illo possimus nisi temporibus at rem, facilis sequi ut. Labore, corporis.
+                <div class="row text-center mt-5">
+                  <div class="col">
+                             <i class="fas fa-shipping-fast"></i>
+                        <div class="row text-center">
+                        <div class="col" id="features">
+                          Time Conscious 
+                        </div>
+                        
+                        </div>
+                  
+                  </div>
+                                  <div class="vl"></div>
+
+
+                  <div class="col">
+                           <i class="fas fa-utensils"></i>
+                               <div class="row text-center">
+                        <div class="col" id="features">
+                         Tasty Foods
+                        </div>
+                        
+                        </div>
+                  
+                  </div>
+
+                  <div class="vl"></div>
+
+                  <div class="col">
+                             <i class="fab fa-angellist"></i>
+                                 <div class="row text-center">
+                        <div class="col" id="features">
+                         Trusted Staffs
+                        </div>
+                        
+                        </div>
+                  
+                  </div>
+
+                  
+                  
+                  </div>
+             <hr style="height:5px;border-width:0;color:red;background-color:red">
+             </div>
+      
+      </div>
+       
+    </div>
+    
+</div>
+
+ <!--START PRICING -->
+<div class="jumbotron-fluid">
+    <div class="container-fluid">
+
+     <h2 class="title font-weight-bold text-center" id="pricing">Our Pricing</h2>
+     
+     <center><hr style="height:5px;width:200px;border-width:20px;color:red;background-color:red"></center>
+
+     <div class="row">
+     <div class="col-lg-4 col-sm-12 col-xl-4">
+     
+      
+      <div class="card text-left">
+        <img class="card-img-top" src="https://funntaste.com/wp-content/uploads/2020/04/online-grocery-during-covid-19-fun-n-taste-com.png" width="180" height="100" alt="">
+        <div class="card-body">
+          <h4 class="card-title text-center display-4 font-weight-bold">CHOPS</h4>
+            <h5 class="card-subtitle text-center display-3 font-weight-bold">$50<span class="perPricing">/plate</span></h5>
+             <center><hr style="height:5px;width:200px;border-width:20px;color:red;background-color:indigo;"></center>
+          <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, minus possimus temporibus unde placeat voluptas Lorem ipsum dolor sit amet.</p>
+              <center><hr style="height:5px;width:200px;border-width:20px;color:red;background-color:indigo;"></center>
+        </div>
+     <div class="perWarning">Available Only in Osun State</div>
+       <div class="button btn btn-outline-danger" type="button">ORDER NOW</div>
+      </div>
+    </div>
+
+
+   <div class="col-lg-4 col-sm-12 col-xl-4">
+     
+      
+      <div class="card text-left">
+        <img class="card-img-top" src="https://funntaste.com/wp-content/uploads/2020/04/online-grocery-during-covid-19-fun-n-taste-com.png" width="180" height="100" alt="">
+        <div class="card-body">
+          <h4 class="card-title text-center display-4 font-weight-bold">SWEETY</h4>
+            <h5 class="card-subtitle text-center display-3 font-weight-bold">$150<span class="perPricing">/plate</span></h5>
+             <center><hr style="height:5px;width:200px;border-width:20px;color:red;background-color:indigo;"></center>
+          <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, minus possimus temporibus unde placeat voluptas Lorem ipsum dolor sit amet.</p>
+              <center><hr style="height:5px;width:200px;border-width:20px;color:red;background-color:indigo;"></center>
+        </div>
+     <div class="perWarning">Available Only in S/W Nigeria</div>
+       <div class="button btn btn-outline-danger" type="button">ORDER NOW</div>
+      </div>
+    </div>
+
+
+    <div class="col-lg-4 col-sm-12 col-xl-4">
+     
+      
+      <div class="card text-left">
+        <img class="card-img-top" src="https://funntaste.com/wp-content/uploads/2020/04/online-grocery-during-covid-19-fun-n-taste-com.png" width="180" height="100" alt="">
+        <div class="card-body">
+          <h4 class="card-title text-center display-4 font-weight-bold">YUMMY</h4>
+            <h5 class="card-subtitle text-center display-3 font-weight-bold">$300<span class="perPricing">/plate</span></h5>
+             <center><hr style="height:5px;width:200px;border-width:20px;color:red;background-color:indigo;"></center>
+          <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, minus possimus temporibus unde placeat voluptas Lorem ipsum dolor sit amet.</p>
+              <center><hr style="height:5px;width:200px;border-width:20px;color:red;background-color:indigo;"></center>
+        </div>
+     <div class="perWarning">Available Nationwide</div>
+       <div class="button btn btn-outline-danger" type="button">ORDER NOW</div>
+      </div>
+    </div>
+
+
+    </div>
+</div>
+         </div>
+
+<!-- END OF PRICING CARD -->
+
+<div class="container mt-5" id="homeQuote">
+<div class="row">
+<div class="col">
+  <blockquote><p class="subtitle p-3"> <i class="fa fa-quote-left" aria-hidden="true"></i> Lorem ipsum dolor sit amet consectetur, 
+  adipisicing elit. Nulla, sequi. Modi ab numquam corporis, ipsum, error vero neque ullam laborum ex rerum,
+   totam minima aspernatur aliquam perspiciatis! Porro, asperiores perferendis. <i class="fa fa-quote-right" aria-hidden="true"></i> </p> </blockquote>
+
+</div>
+
+
+</div>
+
+</div>
+<!--FOOTER-->
+<footer>
+<div class="footer is-fixed-bottom" id="footer">
+<div class="container">
+    <div class="row text-center">
+    <div class="col">
+          <a href="https://www.faceook.com/solgade">  <i class="fab fa-facebook" aria-hidden="true"></i> </a>
+            <a href="https://www.faceook.com/solgade"> <i class="fab fa-twitter" aria-hidden="true"></i>   </a>
+           <a href="https://www.linkedin.com/in/solgade">  <i class="fab fa-linkedin" aria-hidden="true"></i>  </a>
+           <a href="https://www.instagram.com/stev_gbolabyte">  <i class="fab fa-instagram" aria-hidden="true"></i>  </a>
+           <a href="https://www.github.com/gbolabyte"> <i class="fab fa-github" aria-hidden="true"></i>  </a>
+           <a href="https://wa.me/2348068866068">  <i class="fab fa-whatsapp" aria-hidden="true"></i>  </a>
+           <a href="https://www.gbolabyte.com"> <i class="fab fa-wordpress" aria-hidden="true"></i> </a>
+        </div>
+    </div>
+    </div>
+    <div class="copyright text-center text-white mt-5"><i class="fa fa-copyright" aria-hidden="true"></i> <a href="https://fb.me/solgade" class="text-white">Stephen Gbolagade - Frontend Designer <i class="fa fa-laptop" aria-hidden="true"></i></a> | 2020 </div>
+</div>
+<!-- Copyright Text -->
+
+     
+
+
+
+</footer>
+
+
+
+
+
+
+
+
+    
+
+
+<!--JQUERY CDN -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+   <!--Popper CDN-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.3.3/cjs/popper.min.js"></script>
+     <!--Bootstrap Javascript CDN-->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
+    <!--Bulma Fontawesome-->
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <!--FreeCodeCamp CDN-->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
